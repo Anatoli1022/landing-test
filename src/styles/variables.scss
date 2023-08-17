@@ -1,7 +1,7 @@
 // Colors
-$color-primary: '';
-$color-secondary: '';
-$color-tertiary: '';
+$color-primary: #2e2e2e;
+$color-secondary: #fff;
+$color-tertiary: #adadad;
 
 $color-accent-primary: '';
 $color-accent-secondary: '';
@@ -11,8 +11,8 @@ $color-accent-primary-hover: '';
 $color-accent-secondary-hover: '';
 
 // Fonts
-$font-family-primary: '';
-$font-family-secondary: '';
+$font-family-primary: 'PT Root UI';
+$font-family-secondary: 'Druk Cyr';
 
 $font-size-base: '';
 $line-height-base: '';
@@ -36,7 +36,7 @@ $font-size-xs: '';
 $line-height-xs: '';
 
 // Animate
-$transition-base: 0.2s;
+$transition-base: 0.3s;
 
 // Breakpoints
 $breakpoint-lg-down: 1280px - 0.02px;
