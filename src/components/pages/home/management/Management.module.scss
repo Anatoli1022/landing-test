@@ -1,0 +1,82 @@
+.management {
+  margin-top: -172px;
+}
+
+.management-container {
+  position: relative;
+  padding: 28px 40px;
+  background-color: $color-secondary;
+  box-shadow: 0 12px 12px 0 rgb(46 46 46 / 1%), 0 32px 32px 0 rgb(46 46 46 / 2%),
+    0 64px 72px 0 rgb(46 46 46 / 3%);
+}
+
+.container-content {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+}
+
+.title {
+  font-family: $font-family-secondary;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1.44px;
+
+  @include md-down {
+    font-size: 40px;
+    letter-spacing: 1.2px;
+  }
+}
+
+.information {
+  display: flex;
+  column-gap: 40px;
+  margin-top: 315px;
+
+  @include md-down {
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 354px;
+  }
+}
+
+.number-info {
+  font-family: $font-family-secondary;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: uppercase;
+  letter-spacing: 1.44px;
+  white-space: nowrap;
+
+  @include md-down {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+  }
+}
+
+.text {
+  max-width: 171px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  color: $color-tertiary;
+  text-transform: lowercase;
+  letter-spacing: -0.32px;
+
+  @include md-down {
+    max-width: 128px;
+    font-size: 12px;
+  }
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
