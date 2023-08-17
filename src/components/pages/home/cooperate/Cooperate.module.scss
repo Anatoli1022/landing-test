@@ -1,0 +1,111 @@
+.cooperate {
+  padding-bottom: 96px;
+  margin-top: 140px;
+}
+
+.title {
+  font-family: $font-family-secondary;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1.44px;
+
+  @include md-down {
+    font-size: 40px;
+    letter-spacing: 1.2px;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  @include md-down {
+    flex-direction: column;
+  }
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 24px 24px;
+  border-collapse: collapse;
+  border: 1px solid #e4e4e4;
+  transition: $transition-base;
+}
+
+.item:hover {
+  background-color: #8a8cce;
+
+  .item-title {
+    color: $color-secondary;
+  }
+
+  .text {
+    color: $color-secondary;
+  }
+
+  .link {
+    color: $color-secondary;
+  }
+
+  .image {
+    filter: invert(100%);
+  }
+
+  .arrow-path {
+    stroke: $color-secondary;
+  }
+}
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item-title {
+  max-width: 352px;
+  margin-top: 28px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.24px;
+  transition: $transition-base;
+}
+
+.text {
+  max-width: 352px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -0.32px;
+  transition: $transition-base;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 90%;
+  color: $color-primary;
+  text-transform: lowercase;
+  letter-spacing: -0.36px;
+  transition: $transition-base;
+}
+
+.arrow {
+  margin-left: 4px;
+  vertical-align: middle;
+  transition: $transition-base;
+}
+
+.arrow-path {
+  transition: $transition-base;
+}
+
