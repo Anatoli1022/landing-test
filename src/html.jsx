@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types, jsx-a11y/html-has-lang */
 import React from 'react';
 
-const fontsBasePath = '/fonts';
+const fontsBasePath = '/fonts/';
 
 // TODO: Add paths to fonts that need to be preloaded, need to add only fonts that are being used in header + hero sections
-const fontsPaths = [];
+const fontsPaths = ['PTRootUIVF.woff2'];
 
 const HTML = ({
   htmlAttributes,
